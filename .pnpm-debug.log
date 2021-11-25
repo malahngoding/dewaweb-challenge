@@ -1,0 +1,21 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "code": "ELIFECYCLE",
+    "errno": "ENOENT",
+    "syscall": "spawn",
+    "file": "sh",
+    "pkgid": "dewaweb-react@0.0.0",
+    "stage": "dev",
+    "script": "vite",
+    "pkgname": "dewaweb-react",
+    "err": {
+      "name": "pnpm",
+      "message": "dewaweb-react@0.0.0 dev: `vite`\nspawn ENOENT",
+      "code": "ELIFECYCLE",
+      "stack": "pnpm: dewaweb-react@0.0.0 dev: `vite`\nspawn ENOENT\n    at ChildProcess.<anonymous> (/home/bentobox/.config/nvm/versions/node/v17.0.1/pnpm-global/5/node_modules/.pnpm/pnpm@6.22.2/node_modules/pnpm/dist/pnpm.cjs:91330:22)\n    at ChildProcess.emit (node:events:390:28)\n    at maybeClose (node:internal/child_process:1062:16)\n    at Process.ChildProcess._handle.onexit (node:internal/child_process:301:5)"
+    }
+  }
+}
